@@ -1,13 +1,20 @@
 ---
 layout: page
-title: Memoirs, a free minimalist Jekyll blogging theme with modern design 
+title: YaeeunKANG's BLOG
 permalink: /about
 comments: false
-image: assets/images/screenshot.jpg
+image: assets/images/screenshot.png
 imageshadow: true
 ---
 
-This website is a demonstration to see **Memoirs Jekyll theme** in action. The theme is compatible with Github pages, in fact even this demo itself is created with Github Pages and hosted with Github. 
+This website is **YaeeunKANG's BLOG**.
+I'll post my coding diary here.
 
-<a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/jekyll-theme-memoirs/" class="btn btn-dark"> Get Memoirs for Jekyll &rarr;</a>
+I'm a student at Soonchunhyang University.
+My major is Medical Mechatronics Engineering, and double major is Computer Software Engineering.
+This year, I'm in a school club, **LikeLion 8th**, which is a coding club.
+
+Now, I'm studying about **Python**, **Django**, **HTML/CSS**.
+
+<a target="_blank" href="https://github.com/YaeEunKANG" class="btn btn-dark"> My Github Link &rarr;</a>
 
