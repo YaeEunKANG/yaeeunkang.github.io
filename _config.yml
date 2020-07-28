@@ -2,8 +2,8 @@
 name: "YaeeunKANG"
 title: "Yaeeun Memoirs"
 description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/logo.ico/apple-icon.png'
+favicon: 'assets/logo.ico/apple-icon.png'
 baseurl: ""
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
