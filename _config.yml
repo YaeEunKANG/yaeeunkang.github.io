@@ -15,13 +15,22 @@ email: achdrebe@likelion.org
 # Authors
 authors:
   sal:
-    name: Yaeeun
+    name: sal
     display_name: Yaeeun
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net/donate/
     twitter: https://twitter.com/wowthemesnet
     description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  John:
+    name: Yaeeun
+    display_name: Yaeeun   
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: achdrebe@likelion.org
+    web: https://github.com/YaeEunKANG
+    twitter: https://github.com/YaeEunKANG
+    description: "I'm student in Medical Mechatronics Engineering at Soonchunhyang University."
   Yaeeun:
     name: Yaeeun
     display_name: Yaeeun   
@@ -30,7 +39,8 @@ authors:
     email: achdrebe@likelion.org
     web: https://github.com/YaeEunKANG
     twitter: https://github.com/YaeEunKANG
-    description: "I'm student in Medical Mechatronics Engineering at Soonchunhyang University.""
+    description: "I'm student in Medical Mechatronics Engineering at Soonchunhyang University."
+
 # Plugins
 plugins:
   - jekyll-paginate
