@@ -2,8 +2,8 @@
 layout: post
 title:  "Wordcount Project"
 author: Yaeeun
-categories: [ Django ]
-tags: [ Python ], [ Django ], [ LikeLion ]
+categories: [ LikeLion ]
+tags: [ Python, Django ]
 image: assets/images/wordcount_main.png
 beforetoc: "2020.07.22. [Django] Wordcount Page "
 toc: true
