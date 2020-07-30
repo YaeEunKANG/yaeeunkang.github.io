@@ -3,7 +3,7 @@ layout: post
 title:  "Wordcount Project"
 author: Yaeeun
 categories: [ Django ]
-image: assets/images/3.jpg
+image: assets/images/wordcount_main.png
 beforetoc: "Prism highlighter is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post. Tocs is also enabled as you can see in summary."
 toc: true
 ---
