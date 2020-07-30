@@ -2,7 +2,7 @@
 layout: post
 title:  "Wordcount Project"
 author: Yaeeun
-categories: [ Django ], [ Python ]
+categories: [ Django, Python ]
 image: assets/images/wordcount_main.png
 beforetoc: "2020.07.22. [Django] Wordcount Page "
 toc: true
