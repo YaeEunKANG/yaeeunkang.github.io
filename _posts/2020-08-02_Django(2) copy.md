@@ -1,0 +1,68 @@
+---
+layout: post
+title:  "[Dreamary] 3강. Hello, Django "
+author: Yaeeun
+categories: [ Dreamary, Django ]
+image: assets/images/dreamary3.png
+beforetoc: "[Unilion - Django 기초 강의 3강] Django가 관리하는 법"
+toc: true
+---
+
+템플릿 언어를 활용해 여러 페이지를 관리하고 Static File 활용 방법에 대해 알아본다.
+
+#### 학습목표
+
+   **1) Bootstrap 적용**
+   **2) URL / Template 언어 이해 & 구현**
+   **3) Static 파일 이해 (Image, CSS)**
+
+
+#### Bootstrap이란?
+
+: Front-End 개발을 빠르고 쉽게 할 수 있는 오픈소스 프레임워크
+
+**Bootstrap의 특징**
+1) 누구나 쉬운 사용
+2) 반응형 CSS 제공
+3) 모든 최신 브라우저 호환
+4) PC & 모바일 디자인 제공
+
+#### URL 관리 
+
+: urls.py의 urlpatterns에서 담당
+
+**Path의 구조 :** path('URL', views 내부의 함수, name="url 이름")
+   ㄴ 'URL': 페이지 주소 (ex. introduce/, about/)
+   ㄴ 함수 : URL이 호출되었을 때 실행할 함수 (ex. views.home)
+   ㄴ name : 해당 path를 대표하는 이름 (ex. name = "home")
+
+#### Template 언어란?
+: Python 변수 & 문법을 HTML에서 쓸 수 있도록 Django에서 제공하는 언어
+
+````html
+{{ }} : 템플릿 변수 (명사)
+{% %} : 템플릿 태그 (동사)
+````
+
+#### Static File이란?
+
+: 이미지나 CSS, JS 파일처럼 내용이 고정된 파일이다. -> 응답시 파일 그대로 보내주면 된다.
+
+**1) Static :** 웹 서비스를 위해 **개발자**가 준비해두는 파일
+**2) Media :** 웹 서비스 **이용자들**이 업로드 하는 파일
+
+
+#### Static File 처리 방법
+**1. Static 폴더 생성** App 폴더 내에 static 폴더 만들기 & 파일 생성
+**2. Settings.py (Static 설정)**
+````python
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'App 이름','static')]  # Static File들의 경로
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # Static File 모을 디렉토리
+````
+**3. Static 파일 모으기** python manage.py collectstatic
+
+#### CSS 파일의 Static File 처리
+1. statics 폴더 안에 css 폴더 생성
+2. css 파일 생성
+ > 이미 중복된 css 내용은 기존 css 적용 아랫부분에 코드를 작성한다. css는 위에서 아래로 코드가 진행이 되기 때문에, 아래에 적힌 내용이 최종적으로 반영된다.
+
